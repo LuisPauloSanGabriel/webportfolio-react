@@ -38,7 +38,7 @@ export default function FeaturedWorks({ data }) {
                 <Card.Title>{item.name}</Card.Title>
                 <Card.Text>{item.description}</Card.Text>
                 <Button
-                  className="btn btn-primary text-white text-center shadow mt-2"
+                  className="custom-btn-primary text-white text-center shadow mt-2"
                   onClick={() => handleViewProject(item)}
                 >
                   View Project

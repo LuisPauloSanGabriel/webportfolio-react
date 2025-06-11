@@ -59,9 +59,9 @@
   color: #A2AF9F;
 }
 
-#btn-primary {
-  background-color: #00FF23;
-  border-color: #00FF23 ;
+.custom-btn-primary {
+  background-color: #00FF23 !important;
+  border-color: #00FF23 !important;
   border-radius: 10px;
   height: 43px;
   max-width: 208px;
@@ -70,8 +70,8 @@
   transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-#btn-primary:hover {
-  background-color: #00CC1C; /* Darker shade */
+.custom-btn-primary:hover {
+  background-color: #00CC1C !important; /* Darker shade */
 }
 
 
