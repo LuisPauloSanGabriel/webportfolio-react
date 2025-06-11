@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Navbar CSS Here*/
+#Nav {
+  background-color: #3F4A3C;
+}
+
+
+.nav-link-custom {
+  color:  #E6FFE6 !important;
+
+}
+
+.navbar .nav-link {
+  position: relative;
+  color: #212529;
+  text-decoration: none;
+  display: inline-block; /* Important for the underline sizing */
+  transition: color 0.5s ease;
+}
+
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%; /* Start at 0 width */
+  background-color: #00FF23;
+  transition: width 0.5s ease;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%; /* Animate to full width of the text only */
+}
+
+/*Navbar CSS End*/
+
+/*Landing CSS*/
+
+#landing {
+  min-height: 100vh;
+}
+
+#profile {
+  height: 350px;
+  width: 350px;
+}
+
+.landing-info {
+  font-weight: bold;
+}
+
+#position {
+  color: #A2AF9F;
+}
+
+#btn-primary {
+  background-color: #00FF23;
+  border-color: #00FF23 ;
+  border-radius: 10px;
+  height: 43px;
+  max-width: 208px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#btn-primary:hover {
+  background-color: #00CC1C; /* Darker shade */
+}
+
+
+/*Landing CSS End*/
+
+/*Featured Works CSS*/
+#works {
+  background-color:  #3F4A3C;
+}
+
+#works-title {
+  color: #E6FFE6 !important;
+  font-weight:  bold;
+}
+
+.card-img-horizontal {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.hover-pop {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-pop:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/*Featured Works CSS End*/
+
+
+/*TechStack and Tools CSS*/
+#ToolsAndTechStack {
+  min-height: 40vh;
+}
+
+#TechStack {
+  color: #3F4A3C !important;
+  font-weight:  bold;
+}
+
+.marquee-container {
+  overflow: hidden;
+/*  background: #f0f0f0;*/
+  padding: 20px 0;
+}
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.marquee-group {
+  display: flex;
+}
+
+.marquee img {
+  height: 60px;
+  margin: 0 30px;
+  transition: transform 0.3s;
+}
+
+.marquee img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/*TechStack and Tools CSS End*/
+
+
+
+/*Contact Section CSS*/
+#contact {
+  background-color: #3F4A3C;
+}
+
+#contact-details h1 {
+  font-weight: bold;
+}
+
+#contact-form h1 {
+  font-weight: bold;
+}
+
+.highlight {
+  color:  #00FF23;
+}
+
+.contact-icons {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.socmed {
+  height: 40px;
+  width: 40px;
+}
+
+#contact-form {
+  padding: 2rem;
+  background-color: #7C8B7A !important;;
+  border-radius: 15px;
+}
+
+.custom-textarea {
+  height: 250px !important;
+}
+
+#submit {
+  background-color: #00FF23;
+  border: none;
+}
+
