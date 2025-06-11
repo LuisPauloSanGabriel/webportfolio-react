@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+
+}
+
 /*Navbar CSS Here*/
 #Nav {
-  background-color: #3F4A3C;
+   background-color: rgba(63, 74, 60, 0.8) !important;
+  backdrop-filter: blur(5px);
 }
 
 
@@ -36,6 +42,12 @@
 
 .navbar .nav-link:hover::after {
   width: 100%; /* Animate to full width of the text only */
+}
+
+.nav-link-custom.active {
+  color: #00FF23 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #00FF23;
 }
 
 /*Navbar CSS End*/
