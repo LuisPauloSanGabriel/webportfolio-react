@@ -89,7 +89,7 @@ export default function Contact() {
 		<section id="contact" className="Row d-flex flex-column flex-md-row justify-content-center align-items-center py-5 px-md-5 px-5 gap-5">
 			<div id="contact-details" className="col-12 col-sm-12 col-md-6 col-lg-5 mb-5 mb-md-0">
 				<h1 className="text-white">Let's Work Together</h1>
-				<p className="text-white">I'm an aspiring full-stack developer eager to learn, grow, and build real-world solutions. Whether you have an idea, need a collaborator, or just want to connect — I'd love to hear from you.
+				<p className="text-white">I'm a Web Developer eager to learn, grow, and build real-world solutions. Whether you have an idea, need a collaborator, or just want to connect — I'd love to hear from you.
 				</p>
 
 				<div id="contact-information" className="d-none d-sm-flex d-md-flex mt-2 mt-md-5">
@@ -115,7 +115,7 @@ export default function Contact() {
 				 <Form onSubmit={handleSubmit}>
 				 	<div className="d-flex flex-column flex-md-row gap-3">
 				 	  <Form.Group className="mb-3 w-100" controlId="formBasicPassword">
-				        <Form.Label>Name</Form.Label>
+				        <Form.Label className="text-white">Name</Form.Label>
 				        <Form.Control
 				        type="text"
 				        placeholder="Enter your name"
@@ -125,7 +125,7 @@ export default function Contact() {
 				      </Form.Group>
 
 				      <Form.Group className="mb-3 w-100" controlId="formBasicEmail">
-				        <Form.Label>Email address</Form.Label>
+				        <Form.Label className="text-white">Email address</Form.Label>
 				        <Form.Control
 				        type="email"
 				        placeholder="Enter email"
@@ -136,7 +136,7 @@ export default function Contact() {
 				    </div>
 
 				    <Form.Group className="mb-3 w-100" controlId="formBasicSubject">
-				        <Form.Label>Subject</Form.Label>
+				        <Form.Label className="text-white">Subject</Form.Label>
 				        <Form.Control
 				        type="text"
 				        placeholder="Enter Email Subject"

@@ -7,7 +7,7 @@ export default function NavigationBar() {
 	return (
 	<Navbar id="Nav" expand="lg" className="sticky-top shadow-sm">
       <Container>
-        <Navbar.Brand href="#landing" className="nav-link-custom">Luis</Navbar.Brand>
+        <Navbar.Brand href="#landing" className="nav-link-custom" id="logo">Luis</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
