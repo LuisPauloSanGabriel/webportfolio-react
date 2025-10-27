@@ -16,7 +16,7 @@ export default function ToolsAndTech() {
 	return (
 	<>
 		<section id="ToolsAndTechStack">
-			<h1 id="TechStack" className="my-5 text-center">Tech Stack and Tools</h1>
+			<h1 id="TechStack" className="my-5 text-center">TECH STACK AND TOOLS</h1>
 			<div className="marquee-container">
 				<div className="marquee">
 					<div className="marquee-group">

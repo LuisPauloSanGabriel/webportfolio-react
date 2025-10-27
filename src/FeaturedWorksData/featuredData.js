@@ -1,6 +1,7 @@
 import imgPlaceholder from '../assets/img-placeholder.png'
 import kumogi from '../assets/komugi.png';
 import skyward from '../assets/Skyward.jpg';
+import published_postman2 from '../assets/published_postman2.png'
 
 const featuredData = [
 	
@@ -16,26 +17,26 @@ const featuredData = [
 		id: "featured002",
 		name: "E-Commerce API Documentation",
 		description: "Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published using Postman",
-		image: imgPlaceholder,
-		url: ""
+		image: published_postman2,
+		url: "https://documenter.getpostman.com/view/45797389/2sB3QDwYbP"
 	},
 
 	
-	{
-		id: "featured003",
-		name: "Course Booking App",
-		description: "A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allow users to browse available courses and enroll seamlessly.",
-		image: imgPlaceholder,
-		url: ""
-	},
+	// {
+	// 	id: "featured003",
+	// 	name: "Course Booking App",
+	// 	description: "A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allow users to browse available courses and enroll seamlessly.",
+	// 	image: imgPlaceholder,
+	// 	url: ""
+	// },
 
-	{
-		id: "featured004",
-		name: "Course Booking API Documentation",
-		description: "RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.",
-		image: imgPlaceholder,
-		url: ""
-	},
+	// {
+	// 	id: "featured004",
+	// 	name: "Course Booking API Documentation",
+	// 	description: "RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.",
+	// 	image: imgPlaceholder,
+	// 	url: ""
+	// },
 
 	{
 		id: "featured005",

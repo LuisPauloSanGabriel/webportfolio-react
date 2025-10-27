@@ -26,16 +26,16 @@ export default function FeaturedWorks({ data }) {
   return (
     <>
       {data.map((item) => (
-        <div key={item.id} className="mt-0 mt-md-5 g-4 col-10 col-md-5 col-lg-5">
-          <Card className="mb-4 p-3 hover-pop">
+        <div key={item.id} className="mt-3 mt-md-5 px-0 px-md-3 g-4 col-10 col-md-10 col-lg-4">
+          <Card className="mb-4 p-3 hover-pop h-100">
             <div className="d-flex row justify-content-center align-items-center">
               <img
                 src={item.image}
                 alt={item.name}
-                className="card-img-horizontal d-none d-md-block col-12 col-md-6"
+                className="card-img-horizontal col-12 col-md-6 mb-md-4 mb-4"
               />
               <Card.Body className="p-0 col-12 col-md-6">
-                <Card.Title>{item.name}</Card.Title>
+                <Card.Title className="mb-md-4 mb-2">{item.name}</Card.Title>
                 <Card.Text>{item.description}</Card.Text>
                 <Button
                   className="custom-btn-primary text-white text-center shadow mt-2"

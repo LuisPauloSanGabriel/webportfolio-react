@@ -42,7 +42,7 @@ export default function Landing() {
 				<h2 id="position" className="landing-info">
 					<span ref={el}></span>
 				</h2>
-				<p className="pt-3">Web Developer specializing in the MERN and MEVN stacks, with experience designing and delivering responsive applications. Licensed Professional Teacher with a strong background in IT instruction and mentorship, guiding students and junior developers in full-stack web development. Skilled in both technical problem-solving and collaborative teamwork, with a passion for building practical solutions and helping others succeed in tech.<a href="#" className="d-none"><i class="bi bi-arrow-right-circle ms-2"></i></a></p>
+				<p className="pt-3">Web Developer specializing in the MERN and MEVN stacks, with experience designing and delivering responsive applications. Licensed Professional Teacher with a strong background in IT instruction and mentorship, guiding students and junior developers in full-stack web development.	<a href="#" className="d-none"><i class="bi bi-arrow-right-circle ms-2"></i></a></p>
 				
 				<div id="socials" className="mt-5 d-flex flex-column flex-md-column flex-lg-row gap-3">
 					<a className="custom-btn-primary text-white text-center shadow p-2 px-4 mx-auto mx-md-auto mx-lg-0 justify-content-center align-items-center hover-pop" href="https://drive.google.com/file/d/12zMIjdS5iZJyAycMmr44xE0V3EhqK5jL/view?usp=sharing">Download CV<i className="bi bi-file-earmark-arrow-down ms-2"></i></a>

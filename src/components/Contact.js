@@ -88,7 +88,7 @@ export default function Contact() {
 	<>
 		<section id="contact" className="Row d-flex flex-column flex-md-row justify-content-center align-items-center py-5 px-md-5 px-5 gap-5">
 			<div id="contact-details" className="col-12 col-sm-12 col-md-6 col-lg-5 mb-5 mb-md-0">
-				<h1 className="text-white">Let's Work Together</h1>
+				<h1 className="text-white">Let's Work <span className="highlight">Together</span></h1>
 				<p className="text-white">I'm a Web Developer eager to learn, grow, and build real-world solutions. Whether you have an idea, need a collaborator, or just want to connect — I'd love to hear from you.
 				</p>
 
