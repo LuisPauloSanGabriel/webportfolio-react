@@ -5,6 +5,7 @@ import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import reviews1 from '../assets/reviews/Sir_JethroReview.jpg'
 import reviews2 from '../assets/reviews/Sir_EltonReview.jpg'
 import reviews3 from '../assets/reviews/Sir_DasReview.jpg'
+import reviews4 from '../assets/reviews/Sir_MiguelReview.jpg'
 
 export default function ExperienceAndReviews() {
   const { ref, inView } = useInView({ triggerOnce: true });
@@ -47,6 +48,9 @@ export default function ExperienceAndReviews() {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100 rounded shadow" src={reviews3} alt="Student Review 3" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100 rounded shadow" src={reviews4} alt="Student Review 4" />
               </Carousel.Item>
             </Carousel>
           </Col>
