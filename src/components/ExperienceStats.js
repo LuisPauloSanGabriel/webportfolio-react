@@ -49,9 +49,9 @@ export default function ExperienceAndReviews() {
               <Carousel.Item>
                 <img className="d-block w-100 rounded shadow" src={reviews3} alt="Student Review 3" />
               </Carousel.Item>
-              <Carousel.Item>
+{/*              <Carousel.Item>
                 <img className="d-block w-100 rounded shadow" src={reviews4} alt="Student Review 4" />
-              </Carousel.Item>
+              </Carousel.Item>*/}
             </Carousel>
           </Col>
         </Row>
