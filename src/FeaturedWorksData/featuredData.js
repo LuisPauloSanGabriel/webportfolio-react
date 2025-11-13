@@ -1,4 +1,3 @@
-import imgPlaceholder from '../assets/img-placeholder.png'
 import kumogi from '../assets/komugi.png';
 import skyward from '../assets/Skyward.jpg';
 import published_postman2 from '../assets/published_postman2.png'

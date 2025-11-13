@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
 
-import { Container, Row, Col } from 'react-bootstrap'
+/*import { Container, Row, Col } from 'react-bootstrap'*/
 import emailjs from "emailjs-com";
 
 import Button from 'react-bootstrap/Button';

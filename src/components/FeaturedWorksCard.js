@@ -1,4 +1,4 @@
-import useEffect from 'react';
+/*import useEffect from 'react';*/
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -7,7 +7,7 @@ import Swal from 'sweetalert2'
 export default function FeaturedWorks({ data }) {
   console.log(data);
 
-  const { id, name, description, image, url } = data
+  // const { id, name, description, image, url } = data
 
 
   const handleViewProject = (item) => {
