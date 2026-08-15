@@ -16,13 +16,13 @@ export default function ExperienceAndReviews() {
         <Row className="justify-content-center mb-5">
           <Col md={4}>
             <h2 className="fw-bold text-success">
-              {inView && <CountUp end={1} duration={2} />}+
+              {inView && <CountUp end={2} duration={2} />}
             </h2>
-            <p>Year as a Web Developer</p>
+            <p>Years of IT Industry Experience</p>
           </Col>
           <Col md={4}>
             <h2 className="fw-bold text-success">
-              {inView && <CountUp end={3} duration={2} />}+
+              {inView && <CountUp end={4} duration={2} />}+
             </h2>
             <p>Years as an IT Instructor</p>
           </Col>

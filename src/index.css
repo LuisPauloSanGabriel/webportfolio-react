@@ -314,6 +314,11 @@ figcaption p {
   width: 40px;
 }
 
+.other-socmed {
+  height: 60px;
+  width: 60px;
+}
+
 #contact-form {
   padding: 2rem;
   background-color: #39553C !important;;

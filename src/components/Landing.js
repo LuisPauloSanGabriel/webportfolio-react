@@ -6,7 +6,8 @@ import Profile from '../assets/Profile.jpg';
 import linkedIn from '../assets/Linkedin.png';
 import facebook from '../assets/fb.png';
 import instagram from '../assets/insta.png'
-import github from '../assets/github.png'
+import github from '../assets/github.png';
+import tiktok from '../assets/tiktok.png';
 
 export default function Landing() {
 
@@ -16,8 +17,8 @@ export default function Landing() {
     const typed = new Typed(el.current, {
       strings: [
         "Web Developer",
-        "I.T. Professional",
-        "Licensed Professional Teacher"
+        "JavaScript Developer",
+        "Backend Developer"
       ],
       typeSpeed: 50,
       backSpeed: 30,
@@ -42,15 +43,15 @@ export default function Landing() {
 				<h2 id="position" className="landing-info">
 					<span ref={el}></span>
 				</h2>
-				<p className="pt-3">Web Developer specializing in the MERN and MEVN stacks, with experience designing and delivering responsive applications. Licensed Professional Teacher with a strong background in IT instruction and mentorship, guiding students and junior developers in full-stack web development.	</p>
+				<p className="pt-3">JavaScript / Full-Stack Web Developer specializing in MERN and MEVN stacks, with professional experience building full-stack web applications and delivering web development training. Proficient in Node.js, Express.js, React.js, Vue.js, MongoDB, REST APIs, and authentication. IT Instructor with experience training 500+ students in web development and programming.	</p>
 				
 				<div id="socials" className="mt-5 d-flex flex-column flex-md-column flex-lg-row gap-3">
-					<a className="custom-btn-primary text-white text-center shadow p-2 px-4 mx-auto mx-md-auto mx-lg-0 justify-content-center align-items-center hover-pop" href="https://drive.google.com/file/d/12zMIjdS5iZJyAycMmr44xE0V3EhqK5jL/view?usp=sharing">Download CV<i className="bi bi-file-earmark-arrow-down ms-2"></i></a>
+					<a className="custom-btn-primary text-white text-center shadow p-2 px-4 mx-auto mx-md-auto mx-lg-0 justify-content-center align-items-center hover-pop" href="https://drive.google.com/file/d/1vY-tfxh_1CwcKOsvUA19d_aiNveJhBxr/view?usp=sharing" target="_blank">Download CV<i className="bi bi-file-earmark-arrow-down ms-2"></i></a>
 					<div className="d-flex flex-row justify-content-center align-items-center ">
 						<a href="https://github.com/LuisPauloSanGabriel" target="_blank"><img className="socmed me-3 mb-3 hover-pop" src={github} alt="Github" /></a>
 						<a href="https://www.linkedin.com/in/luis-paulo-san-gabriel-4a0978318/" target="_blank"><img className="socmed me-3 mb-3 hover-pop" src={linkedIn} alt="LinkedIn" /></a>
-						<a href="https://www.facebook.com/luis.paulo.san.gabriel.2024/" target="_blank"><img className="socmed me-3 mb-3 hover-pop" src={facebook} alt="Facebook" /></a>
-						<a href=""><img className="socmed me-3 mb-3 hover-pop" src={instagram} alt="Instagram" /></a>
+						{/*<a href="https://www.facebook.com/luis.paulo.san.gabriel.2024/" target="_blank"><img className="socmed me-3 mb-3 hover-pop" src={facebook} alt="Facebook" /></a>
+						<a href=""><img className="socmed me-3 mb-3 hover-pop" src={instagram} alt="Instagram" /></a>*/}
 					</div>
 				</div>
 			</figcaption>

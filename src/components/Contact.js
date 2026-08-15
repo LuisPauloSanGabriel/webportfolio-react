@@ -12,6 +12,7 @@ import emailIcon from '../assets/email.png';
 import linkedIn from '../assets/Linkedin.png';
 import facebook from '../assets/fb.png';
 import instagram from '../assets/insta.png'
+import tiktok from '../assets/tiktok.png'
 
 export default function Contact() {
 
@@ -103,8 +104,8 @@ export default function Contact() {
 				<div id="socials" className="pt-5">
 						<h5 className="mb-3 highlight">Social Media Accounts</h5>
 						<a href="https://www.linkedin.com/in/luis-paulo-san-gabriel-4a0978318/" target="_blank"><img className="socmed me-3 mb-3" src={linkedIn} alt="LinkedIn" /></a>
-						<a href="https://www.facebook.com/luis.paulo.san.gabriel.2024/" target="_blank"><img className="socmed me-3 mb-3" src={facebook} alt="Facebook" /></a>
-						<a href="" target="_blank"><img className="socmed me-3 mb-3" src={instagram} alt="Instagram" /></a>
+						<a href="https://www.facebook.com/luis.paulo.san.gabriel.2024/" target="_blank"><img className="socmed me-2 mb-3" src={facebook} alt="Facebook" /></a>
+						<a href="https://www.tiktok.com/@momentix.sgphotography" target="_blank"><img className="other-socmed mb-3" src={tiktok} alt="Tiktok" /></a>
 				</div>
 			</div>
 
