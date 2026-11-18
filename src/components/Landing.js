@@ -46,7 +46,7 @@ export default function Landing() {
 				<p className="pt-3">JavaScript / Full-Stack Web Developer specializing in MERN and MEVN stacks, with professional experience building full-stack web applications and delivering web development training. Proficient in Node.js, Express.js, React.js, Vue.js, MongoDB, REST APIs, and authentication. IT Instructor with experience training 500+ students in web development and programming.	</p>
 				
 				<div id="socials" className="mt-5 d-flex flex-column flex-md-column flex-lg-row gap-3">
-					<a className="custom-btn-primary text-white text-center shadow p-2 px-4 mx-auto mx-md-auto mx-lg-0 justify-content-center align-items-center hover-pop" href="https://drive.google.com/file/d/1vY-tfxh_1CwcKOsvUA19d_aiNveJhBxr/view?usp=sharing" target="_blank">Download CV<i className="bi bi-file-earmark-arrow-down ms-2"></i></a>
+					<a className="custom-btn-primary text-white text-center shadow p-2 px-4 mx-auto mx-md-auto mx-lg-0 justify-content-center align-items-center hover-pop" href="https://drive.google.com/file/d/1TuUqHIwLs_7pqMBsZcEwsMzruHAh1Siy/view?usp=sharing" target="_blank">Download CV<i className="bi bi-file-earmark-arrow-down ms-2"></i></a>
 					<div className="d-flex flex-row justify-content-center align-items-center ">
 						<a href="https://github.com/LuisPauloSanGabriel" target="_blank"><img className="socmed me-3 mb-3 hover-pop" src={github} alt="Github" /></a>
 						<a href="https://www.linkedin.com/in/luis-paulo-san-gabriel-4a0978318/" target="_blank"><img className="socmed me-3 mb-3 hover-pop" src={linkedIn} alt="LinkedIn" /></a>
